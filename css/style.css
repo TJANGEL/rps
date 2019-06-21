@@ -30,8 +30,7 @@ body {
 }
 
 .restart-btn {
-  display: inline-block;
-  /* display: none; */
+  display: none;
   background: var(--light-color);
   color: #333;
   padding: 0.4rem 1.3rem;
@@ -40,6 +39,7 @@ body {
   outline: none;
   border: none;
   border-radius: 3px;
+  margin-bottom: 1rem;
 }
 
 .restart-btn:hover {
